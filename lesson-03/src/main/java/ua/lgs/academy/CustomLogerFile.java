@@ -19,9 +19,6 @@ public static void logWithBasicConfigurator() {
 public static void logWithDomConfigurator() {
 	DOMConfigurator.configure("loggerConfig.xml");
 	LOG.error("ERROR logger message");
-	LOG.info("INFO logger message");
-	LOG.debug("DEBUG logger message");
-	LOG.warn("WARN logger message");
 	
 }
 
